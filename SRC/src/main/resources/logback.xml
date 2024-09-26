@@ -1,0 +1,15 @@
+<configuration>
+    <!-- Disable logging for specific classes -->
+    <logger name="edu.stanford.nlp.pipeline.WordsToSentencesAnnotator" level="OFF"/>
+    <logger name="edu.stanford.nlp.tagger.maxent.MaxentTagger" level="OFF"/>
+    <logger name="edu.stanford.nlp.ie.AbstractSequenceClassifier" level="OFF"/>
+    <logger name="edu.stanford.nlp.time.JollyDayHolidays" level="OFF"/>
+    <logger name="edu.stanford.nlp.time.TimeExpressionExtractorImpl" level="OFF"/>
+    <logger name="edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor" level="OFF"/>
+    <logger name="edu.stanford.nlp.pipeline.TokensRegexNERAnnotator" level="OFF"/>
+    <logger name="edu.stanford.nlp.pipeline.NERCombinerAnnotator" level="OFF"/>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
