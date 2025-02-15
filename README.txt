@@ -1,5 +1,5 @@
-##Hatla2ee Car Buying Assistant
-#🚗 Overview
+**Hatla2ee Car Buying Assistant**
+**🚗 Overview**
 Hatla2ee Car Buying Assistant is a Scala-based chatbot designed to help users find used cars based on their preferences. Users can specify their favorite car brand, model, color, and price range to receive personalized recommendations. The chatbot also supports searching for cars without specifying preferences.
 
 📥 Installation
